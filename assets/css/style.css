@@ -1070,7 +1070,7 @@ header{
 }
 
 .top-menu-menu ul.level-one li:hover {
-    background: var(--main-color-two);
+    background: var(--main-color-one);
 }
 
 .top-menu-menu ul.level-one li:hover i {
