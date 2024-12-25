@@ -2317,11 +2317,6 @@ figure.avatar img {
 
 /* float btns */
 
-div#btncollapzion {
-    left: 3px !important;
-    bottom: 48px !important;
-}
-
 .progress-wrap.d-lg-block.d-none.active-progress {
     left: 12px;
     box-shadow: none !important;
