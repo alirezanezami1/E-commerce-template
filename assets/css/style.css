@@ -5196,8 +5196,48 @@ html {
     border: 1px solid #ccc;
 }
 
+.auth-form .title-panel::before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+    height: 3px;
+    background-color: #0547b2;
+    width: 60px;
+    z-index: 2;
+}
+
+.auth-form.signInEnter .title-panel::before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+    height: 3px;
+    background-color: #0547b2;
+    width: 60px;
+    margin-right: 70px;
+    z-index: 2;
+}
+
+.auth-form .formSignIn {
+    display: none;
+}
+
+.auth-form.signInEnter .formSignUp {
+    display: none;
+}
+.auth-form.signInEnter .formSignIn {
+    display: block;
+}
+
+.formSignIn input::placeholder ,
+.formSignUp input::placeholder {
+    color: #bcbcbc;
+}
+
 .auth-form-title h2 {
     color: var(--color-site) !important;
+    cursor: pointer;
 }
 
 .btn-login {

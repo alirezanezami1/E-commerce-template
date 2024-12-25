@@ -31,39 +31,55 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-4">
 
-                                <div class="auth-form shadow-xl rounded-3  mt-5 bg-white">
+                                <div class="auth-form shadow-xl rounded-3  mt-5 bg-white signInEnter">
                                     <div class="auth-form-title d-flex align-items-center justify-content-between title-panel mb-4 slider-title-desc-center">
-                                        <h2 class="text-center h4 text-muted title-font">ورود / ثبت نام</h2>
+                                        <h2 class="text-center h4 text-muted title-font"><span class="sign-in">ورود</span> / <span class="sign-up">ثبت نام</span></h2>
                                         <a href="">
                                             <img src="assets/image/logo.png" width="150" alt="">
                                         </a>
                                     </div>
-                                    <form action="" id="form-auth">
+                                    <form action="" id="form-auth" class="formSignUp">
 
                                         <div class="comment-item mb-3 step-username">
-                                            <input type="text" class="form-control usernum_inpt" id="username">
-                                            <label for="username" class="form-label label-float">شماره تلفن خود را وارد
+                                            <input type="tel" class="form-control usernum_inpt"  placeholder="9121234567">
+                                            <label  class="form-label label-float">شماره تلفن خود را وارد
                                                 کنید</label>
                                         </div>
-
-                                        <!-- <div class="comment-item position-relative step-passwd">
-                                            <input type="password" class="form-control" id="passwd">
-                                            <label for="passwd" class="form-label label-float">رمز عبور خود را
-                                                وارد
-                                                کنید</label>
-                                            <div class="inline-btn-text">
-                                                <a href="sending-code.html" class="btn border-0 main-color-one-bg">ورود با پیامک</a>
-                                            </div>
-                                        </div> -->
 
                                         <div class="form-group step-one">
-                                            <a href="sending-code.html" class="main-color-one-bg py-3 btn w-100  rounded-3 reg_btn">ورود / ثبت نام</a>
+                                            <a href="#" class="main-color-one-bg py-3 btn w-100  rounded-3 reg_btn sign-up-btn">ورود</a>
                                         </div>
-                                        <!-- <div class="form-group step-two">
-                                            <button type="button" class="main-color-one-bg py-3 btn w-100 btnForm rounded-3">تایید</button>
-                                        </div> -->
 
                                     </form>
+
+                                    <form action="" id="form-auth" class="formSignIn" >
+
+                                        <div class="comment-item mb-3 step-username">
+                                            <input type="text" class="form-control usernum_inpt" id="username" placeholder="نام بیشتر از سه حرف داشته باشد">
+                                            <label for="username" class="form-label label-float">نام خود را وارد کنید</label>
+                                        </div>
+
+                                        <div class="comment-item mb-3 step-username">
+                                            <input type="email" class="form-control usernum_inpt" id="username" placeholder="userInfo@gmail.com">
+                                            <label for="username" class="form-label label-float">ایمیل خود را وارد کنید</label>
+                                        </div>
+
+                                        <div class="comment-item mb-3 step-username">
+                                            <input type="tel" class="form-control usernum_inpt phoneNumberUser" id="username" placeholder="9121234567">
+                                            <label for="username" class="form-label label-float">شماره تلفن خود را وارد کنید</label>
+                                        </div>
+
+                                        <div class="comment-item mb-3 step-username">
+                                            <input type="tel" class="form-control usernum_inpt NationalCode"  placeholder="ده رقمی">
+                                            <label  class="form-label label-float ">کدملی خود را وارد کنید</label>
+                                        </div>
+
+
+                                        <div class="form-group step-one">
+                                            <a href="#" class="main-color-one-bg py-3 btn w-100  rounded-3 reg_btn sign-up-btn">ثبت نام</a>
+                                        </div>
+
+                                    </form> 
 
                                 </div>
 
