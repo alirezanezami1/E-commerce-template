@@ -5168,6 +5168,7 @@ html {
 .bg-auth {
     background: url('../image/auth-bg.jpg') no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 
