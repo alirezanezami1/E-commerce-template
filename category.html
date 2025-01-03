@@ -39,7 +39,7 @@
                             <div class="offcanvas offcanvas-start" tabindex="-1" id="responsiveMenu"
                                 aria-labelledby="responsive menu">
                                 <div class="offcanvas-header">
-                                    <h5 class="offcanvas-title">فروشگاه سانیار</h5>
+                                    <h5 class="offcanvas-title" id="offcanvasRightLabel">فروشگاه سانیار</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
                                         aria-label="Close"></button>
                                 </div>
@@ -290,8 +290,8 @@
                             <div class="dropdown">
                                 <a href="#register" data-bs-toggle="dropdown" aria-expanded="false" role="button"
                                     class="btn btn-white header-register border-0 rounded-pill">
-                                    <i class="bi bi-person-circle font-20 text-muted me-1"></i>
-                                    <span>ثبت نام</span>
+                                    <!-- <i class="bi bi-person-circle font-20 text-muted me-1"></i> -->
+                                    <!-- <span>ثبت نام</span> -->
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a href="" class="dropdown-item"><i
@@ -314,12 +314,7 @@
                                                 class="bi bi-arrow-right-square me-2"></i>خروج از حساب کاربری</a></li>
                                 </ul>
                             </div>
-                            <a href="#login" class="btn btn-white header-login border-0 rounded-pill">ورود</a>
-                        </div>
-                        <div class="header-whishlist shadow-sm">
-                            <a href="#whishlist">
-                                <i class="bi bi-bookmark-check font-20 text-muted"></i>
-                            </a>
+                            <a href="./register.html" class="btn btn-white header-login border-0 rounded-pill">ورود یا ثبت نام</a>
                         </div>
                         <div class="header-cart ms-1">
                             <a class="btn header-cart-toggle rounded-pill btn-white border-0 shadow-sm"
@@ -462,8 +457,7 @@
                                                 <li><a href="">لبتاپ تا 10 میلیون</a></li>
                                                 <li><a href="">لبتاپ تا 12 میلیون</a></li>
                                                 <li><a href="">لبتاپ تا 15 میلیون</a></li>
-                                                <li><a class="title my-flex-baseline" href="">لبتاپ براساس حافظه
-                                                        داخلی</a></li>
+                                                <li><a class="title my-flex-baseline" href="">لبتاپ براساس حافظه داخلی</a></li>
                                                 <li><a href="">لبتاپ تا 16 گیگابایت</a></li>
                                                 <li><a href="">لبتاپ تا 32 گیگابایت</a></li>
                                                 <li><a href="">لبتاپ تا 64 گیگابایت</a></li>
@@ -481,7 +475,7 @@
                                         </li>
                                         <li><a href=""><i class="bi bi-tag"></i>پر فروش ترین ها</a>
                                             <ul class="main-menu-sub back-menu"
-                                                style=" background: #fff url('assets/image/top-sales.jpeg') no-repeat;">
+                                                style=" background: #fff url('assets/image/top-sales.jpg') no-repeat;">
                                                 <li><a class="title my-flex-baseline" href="">زیر منو شماره 1 </a></li>
                                                 <li><a href="">زیر منو شماره 1</a></li>
                                                 <li><a href="">زیر منو شماره 1</a></li>
@@ -510,8 +504,8 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="nav-item"><a href="" class="nav-link border-animate fromCenter">مگا لیست منو
-                                        <i class="bi bi-tablet"></i></a>
+                                <li class="nav-item"><a href="" class="nav-link border-animate fromCenter">
+                                        <i class="bi bi-tablet"></i> مگا لیست منو</a>
                                     <ul class="list-unstyled shadow-lg back-menu sub-menu mega-container"
                                         style="background: #fff url('assets/image/mega-img-1.jpg') no-repeat;background-size: 400px !important;">
                                         <li><a href="" class="title">بـرند</a></li>
@@ -550,8 +544,8 @@
                                         <li><a href="">نیلی</a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item"><a href="" class="nav-link border-animate fromCenter">منو ساده<i
-                                            class="bi bi-menu-app"></i></a>
+                                <li class="nav-item"><a href="" class="nav-link border-animate fromCenter"><i
+                                            class="bi bi-menu-app"></i> منو ساده</a>
                                     <ul class="level-one">
                                         <li><a href="">منو شماره 1</a></li>
                                         <li><a href="">منو شماره 2</a></li>
@@ -559,8 +553,8 @@
                                                     class="bi bi-chevron-left"></i></a>
                                             <ul class="level-two">
                                                 <li><a href="">زیر منو شماره 1</a></li>
-                                                <li><a href="">2 زیر منو شماره </a></li>
-                                                <li><a href="">3 زیر منو شماره </a></li>
+                                                <li><a href="">زیر منو شماره 2</a></li>
+                                                <li><a href="">زیر منو شماره 3</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="">منو شماره 4</a></li>
@@ -571,22 +565,7 @@
                                 <li class="nav-item"><a href="" class="nav-link border-animate fromCenter"> <i
                                             class="bi bi-tag"></i>
                                         تخفیف ها و پیشنهاد ها</a></li>
-                                <li class="nav-item"><a href="" class="nav-link border-animate fromCenter">سوالی
-                                        دارید</a>
-                                </li>
-                                <li class="nav-item"><a href="" class="nav-link border-animate fromCenter">در سانیار
-                                        بفروشید</a></li>
                             </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="d-flex align-items-center justify-content-end">
-                            <a href=""
-                                class="main-color-three-bg btn border-0 d-flex align-items-center rounded-pill">02133223322<i
-                                    class="bi bi-whatsapp text-white ms-2"></i></a>
-                            <a href=""
-                                class="main-color-two-bg btn border-0 d-flex align-items-center ms-3 rounded-pill">02133223322<i
-                                    class="bi bi-telephone-fill ms-2 text-white"></i></a>
                         </div>
                     </div>
                 </div>
@@ -748,7 +727,7 @@
                                                         class="form-check-input">
                                                 </div>
                                                 <div>
-                                                    <span class="fw-bold font-14">(27)</span>
+                                                    <span class="fw-bold font-14">(100)</span>
                                                 </div>
                                             </div>
                                             <div
@@ -760,7 +739,7 @@
                                                         class="form-check-input">
                                                 </div>
                                                 <div>
-                                                    <span class="fw-bold font-14">(32)</span>
+                                                    <span class="fw-bold font-14">(100)</span>
                                                 </div>
                                             </div>
                                             <div
@@ -772,7 +751,7 @@
                                                         class="form-check-input">
                                                 </div>
                                                 <div>
-                                                    <span class="fw-bold font-14">(14)</span>
+                                                    <span class="fw-bold font-14">(100)</span>
                                                 </div>
                                             </div>
                                             <div
@@ -784,7 +763,7 @@
                                                         class="form-check-input">
                                                 </div>
                                                 <div>
-                                                    <span class="fw-bold font-14">(8)</span>
+                                                    <span class="fw-bold font-14">(100)</span>
                                                 </div>
                                             </div>
                                         </form>
@@ -903,7 +882,7 @@
                                                     class="form-check-input">
                                             </div>
                                             <div>
-                                                <span class="fw-bold font-14">(27)</span>
+                                                <span class="fw-bold font-14">(100)</span>
                                             </div>
                                         </div>
                                         <div class="d-flex align-items-center justify-content-between flex-wrap mb-3">
@@ -914,7 +893,7 @@
                                                     class="form-check-input">
                                             </div>
                                             <div>
-                                                <span class="fw-bold font-14">(32)</span>
+                                                <span class="fw-bold font-14">(100)</span>
                                             </div>
                                         </div>
                                         <div class="d-flex align-items-center justify-content-between flex-wrap mb-3">
@@ -925,7 +904,7 @@
                                                     class="form-check-input">
                                             </div>
                                             <div>
-                                                <span class="fw-bold font-14">(14)</span>
+                                                <span class="fw-bold font-14">(100)</span>
                                             </div>
                                         </div>
                                         <div class="d-flex align-items-center justify-content-between flex-wrap mb-3">
@@ -936,7 +915,7 @@
                                                     class="form-check-input">
                                             </div>
                                             <div>
-                                                <span class="fw-bold font-14">(8)</span>
+                                                <span class="fw-bold font-14">(100)</span>
                                             </div>
                                         </div>
                                     </form>
@@ -1071,8 +1050,6 @@
                                         </div>
                                         <div class="product-header-btn">
                                             <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="top"
-                                                data-bs-title="مقایسه"><i class="bi bi-shuffle"></i></a>
-                                            <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="top"
                                                 data-bs-title="افزودن به علاقه مندی ها"><i class="bi bi-heart"></i></a>
                                             <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="top"
                                                 data-bs-title="مشاهده سریع"><i class="bi bi-eye"></i></a>
@@ -1116,8 +1093,6 @@
                                             <span>40% تخفیف</span>
                                         </div>
                                         <div class="product-header-btn">
-                                            <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="top"
-                                                data-bs-title="مقایسه"><i class="bi bi-shuffle"></i></a>
                                             <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="top"
                                                 data-bs-title="افزودن به علاقه مندی ها"><i class="bi bi-heart"></i></a>
                                             <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="top"
@@ -1163,8 +1138,6 @@
                                         </div>
                                         <div class="product-header-btn">
                                             <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="top"
-                                                data-bs-title="مقایسه"><i class="bi bi-shuffle"></i></a>
-                                            <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="top"
                                                 data-bs-title="افزودن به علاقه مندی ها"><i class="bi bi-heart"></i></a>
                                             <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="top"
                                                 data-bs-title="مشاهده سریع"><i class="bi bi-eye"></i></a>
@@ -1208,8 +1181,6 @@
                                             <span>40% تخفیف</span>
                                         </div>
                                         <div class="product-header-btn">
-                                            <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="top"
-                                                data-bs-title="مقایسه"><i class="bi bi-shuffle"></i></a>
                                             <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="top"
                                                 data-bs-title="افزودن به علاقه مندی ها"><i class="bi bi-heart"></i></a>
                                             <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="top"
@@ -1255,8 +1226,6 @@
                                         </div>
                                         <div class="product-header-btn">
                                             <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="top"
-                                                data-bs-title="مقایسه"><i class="bi bi-shuffle"></i></a>
-                                            <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="top"
                                                 data-bs-title="افزودن به علاقه مندی ها"><i class="bi bi-heart"></i></a>
                                             <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="top"
                                                 data-bs-title="مشاهده سریع"><i class="bi bi-eye"></i></a>
@@ -1300,8 +1269,6 @@
                                             <span>40% تخفیف</span>
                                         </div>
                                         <div class="product-header-btn">
-                                            <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="top"
-                                                data-bs-title="مقایسه"><i class="bi bi-shuffle"></i></a>
                                             <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="top"
                                                 data-bs-title="افزودن به علاقه مندی ها"><i class="bi bi-heart"></i></a>
                                             <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="top"
@@ -1347,8 +1314,6 @@
                                         </div>
                                         <div class="product-header-btn">
                                             <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="top"
-                                                data-bs-title="مقایسه"><i class="bi bi-shuffle"></i></a>
-                                            <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="top"
                                                 data-bs-title="افزودن به علاقه مندی ها"><i class="bi bi-heart"></i></a>
                                             <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="top"
                                                 data-bs-title="مشاهده سریع"><i class="bi bi-eye"></i></a>
@@ -1393,8 +1358,6 @@
                                         </div>
                                         <div class="product-header-btn">
                                             <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="top"
-                                                data-bs-title="مقایسه"><i class="bi bi-shuffle"></i></a>
-                                            <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="top"
                                                 data-bs-title="افزودن به علاقه مندی ها"><i class="bi bi-heart"></i></a>
                                             <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="top"
                                                 data-bs-title="مشاهده سریع"><i class="bi bi-eye"></i></a>
@@ -1438,8 +1401,6 @@
                                             <span>40% تخفیف</span>
                                         </div>
                                         <div class="product-header-btn">
-                                            <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="top"
-                                                data-bs-title="مقایسه"><i class="bi bi-shuffle"></i></a>
                                             <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="top"
                                                 data-bs-title="افزودن به علاقه مندی ها"><i class="bi bi-heart"></i></a>
                                             <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="top"
@@ -1787,11 +1748,6 @@
                 </svg>
             </div>
             <!-- end go top top -->
-
-            <!-- contact us floating -->
-            <div id="btncollapzion" class=" btn_collapzion"></div>
-            <div class="" id="contactOverlay"></div>
-            <!-- end contact us floating -->
         </div>
     </div>
 
