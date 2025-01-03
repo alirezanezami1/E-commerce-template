@@ -5530,3 +5530,12 @@ div.countdown-bar div:nth-of-type(2) span {
 
 
 /* end faq */
+
+
+.tab-btn.active-tab {
+    background-color: var(--main-color-two);
+}
+
+.tab-item:not(.active-tab) {
+    display: none;
+}
